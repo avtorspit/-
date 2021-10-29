@@ -1,0 +1,75 @@
+body{
+    background-color: azure;
+    left: 0;
+    right: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    text-align: center;
+    color: Pink;
+    font-size: 60pt;
+}
+.talk{
+    background-color: LightSteelBlue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.talk .box{
+    width: 48%;
+    margin: 5px;
+}
+.talk .box p{
+    text-align: right;
+    font-size: 50pt;
+    border-left: 7px solid DeepSkyBlue; /* Параметры линии */ 
+    margin-left: 20px; /* Отступ слева */
+    padding-left: 10px; /* Расстояние от линии до текста */
+}
+.talk_1{
+    background-color: SkyBlue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.talk_1 p{
+    text-align: center;
+    font-size: 40pt;
+}
+.talk_2{
+    background-color:LightSteelBlue;
+}
+.talk_2 .photos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px;
+    text-align: center;
+}
+.talk_2 p{
+    font-size: 40pt;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: MidnightBlue;
+    font-size: 50pt;
+}
+.yana{
+    text-align: center;
+}
+.yana img{
+    padding: 2px; /* Ширина паспарту */
+    background:white; /* Цвет фона  паспарту */
+    border: 4px solid black; /* Параметры рамки */ 
+    transition: 0.5s;
+}
+.yana img:hover {
+    transform: scale(1.1);
+} 
+.talk img{
+    transition: 0.5s;
+}
+.talk img:hover{
+    transform: scale(1.1);
+}
